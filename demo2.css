@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 30px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+.head a{
+    color: black
+}
+.head :last-child ul{
+    list-style: none;
+}
+.head :last-child ul>li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.drink{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.ser1{
+    width: 500px;
+    height: 30px;
+    border: 1px gray solid;
+    margin-top: 36px;
+}
+.ser1 div{
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    float: right;
+} 
+.ser2{
+    width: 500px;
+    height: 30px;
+    font-size: 13px;
+}
+.ser2 ul{
+    list-style: none;
+}
+.ser2 ul>li{
+    display: inline-block;
+}
+.ser2 ul :nth-child(2){
+    color: red;
+}
+.ser2 ul :nth-child(6){
+    color: red;
+}
+.sao{
+    display: flex;
+    justify-content: space-between;
+}
+.sao1 :first-child{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sao1 :last-child{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.box{
+    width: 100%;
+    height: 900px;
+}
+.box-head{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    font-size: 12px;
+    position: relative;
+}
+.h{
+    width: 658px;
+    margin: 0 auto;
+    height: 40px;
+    color: white;
+    z-index: 20;
+}
+.box-head ul{
+    list-style: none;
+}
+.box-head ul>li{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+} 
+.box-img{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    position: relative;
+}
+.box-img img{
+    width: 100%;
+    height: 300px;
+    opacity: 0;
+    position: absolute;
+    transition: all 1s;
+}
+.box-img :first-child{
+    display: block;
+    opacity: 1;
+}
+.midd-1{
+    width: 156px;
+    height: 127px;
+    color: white;
+    display: none;   
+    position: absolute;
+    top: 36px;
+    left: 528px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    
+    z-index: 10;
+}
+.midd-2{
+    width: 150px;
+    height: 127px;
+    color: white;
+    position: absolute;
+    top: 36px;
+    left: 680px;
+    background-color: rgba(255, 255, 255, 0.4); 
+     display: none;   
+    z-index: 10;
+}
+.pp{
+    width: 150px;
+    height: 55px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 680px;
+    background-color: rgba(255, 255, 255, 0.4); 
+     display: none;   
+    z-index: 10;
+}
+.pp1{
+    width: 158px;
+    height: 48px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 527px;
+    background-color: rgba(255, 255, 255, 0.4); 
+    display: none;  
+    z-index: 10;
+}
+.awm{
+    margin-left: 20%;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.md{
+    width: 60%;
+    margin-left: 20%;
+    background-color: #F6F6F6;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.md ul{
+    list-style: none;
+}
+.md ul li{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.md ul>li :first-child{
+    background-color: #999999;
+}
+.md span{
+    color: red;
+}
+.mimg{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.one-1{
+    display: flex;
+    width: 553px;
+    border: 1px black solid;
+}
+.img-1{
+    width: 173px;
+    height: 238px;
+    margin-left: 42px;
+}
+.img-1 img{
+    width: 100%;
+    height: 100%;
+}
+.wen-1{
+    margin-top: 64px;
+    margin-left: 27px;
+}
+.wen-1 div{
+    margin-top: 5px;
+}
+.num{
+    display: flex;
+    justify-content: space-between;
+}
+.num :first-child{
+    color: red;
+}
+.num :last-child{
+    color: gray;
+}
+.one-2{
+    width: 558px;
+    display: flex;
+    border: 1px black solid;
+}
+.img-2{
+    width: 270px;
+    height: 241px;
+    margin-left: 42px;
+}
+.img-2 img{
+    width: 100%;
+    height: 100%;
+}
+.wen-2{
+    margin-top: 60px;
+    margin-left: 11px;  
+    width: 364px;
+}
+.wen-2 div{
+    margin-top: 5px;
+}
+.num2{
+    display: flex;
+    justify-content: space-between;
+    width: 183px;
+}
+.num2 :first-child{
+    color: red;
+}
+.num2 :last-child{
+    color: gray;
+}
+.xx{
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.xx div{
+    border: 1px black solid;
+    margin-right: 10px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.xx :nth-child(2){
+    background-color: red;
+    width: 40px;
+}
+.xx :nth-child(3){
+    width: 40px;
+}
+.xx :nth-child(4){
+    width: 40px;
+}
+.xx :first-child{
+    width: 90px;
+}
+.xx :last-child{
+    width: 90px;
+}
+.mostBot{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.bot-1{
+    margin: 0 auto;
+    margin-top: 5px;
+    
+    width: 1700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.bot-1 ul{
+    list-style: none;
+}
+.bot-1 ul li{
+    padding-top: 10px;
+}
+.bot-1 div{
+    padding-left: 20px; 
+}
+.li1{
+    font-size: 17px;
+}
+.bot-2{
+    margin: 0 auto;
+    width: 806px;
+}
+.bot-2 :first-child{
+    margin: 0 auto;
+    width: 522px;
+    height: 30px;
+}
+.bot-2 span{
+   padding-left: 84px;
+}

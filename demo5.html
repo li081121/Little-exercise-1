@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .head{
+        width: 200px;
+        height: 100px;
+        margin-left:20%;
+    }
+    .box{
+        width: 100%;
+        height: 700px;
+        position: relative;
+    }
+    .i{
+        width: 100%;
+        height: 100%;
+    }
+    .ver{
+        position: absolute;
+        width: 235px;
+        height: 300px;
+        right: 19%;
+        top: 30%;
+        background-color: white;
+    }
+    .ver-2 img{
+        width: 30px;
+        height: 30px;
+        vertical-align: middle
+    }
+    .ver-3 img{
+        width: 30px;
+        height: 30px;
+        vertical-align: middle
+    }
+    .ver-1{
+        margin-bottom: 10px;
+        margin-top: 33px;
+        margin-left: 20px;
+    }
+    .ver-2{
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .ver-2 input{
+        height: 24px;
+        margin-left: -5px;
+    }
+    .ver-2 label{
+        height: 30px;
+        width: 30px;
+    }
+
+    .ver-3{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .ver-3 input{
+        height: 24px;
+        margin-left: -5px;
+    }
+    .ver-4{
+        margin-left: 21px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .ver-4 :last-child{
+        margin-right: 11px;
+    }
+    .ver-5{
+        margin-left: 23px;
+        margin-top: 30px;
+    }
+    .ver-5 input{
+        width: 200px;
+        height: 30px;
+        background-color: red;
+    }
+    .mostBot{
+    width: 100%;
+    height: 300px;
+}
+.bot-1{
+    margin: 0 auto;
+    margin-top: 5px;
+    
+    width: 1700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.bot-1 ul{
+    list-style: none;
+}
+.bot-1 ul li{
+    padding-top: 10px;
+}
+.bot-1 div{
+    padding-left: 20px; 
+}
+.li1{
+    font-size: 17px;
+}
+.bot-2{
+    margin: 0 auto;
+    width: 831px;
+}
+.bot-2 :first-child{
+    margin: 0 auto;
+    width: 532px;
+    height: 30px;
+}
+.bot-2 span{
+   padding-left: 84px;
+}
+.v{
+    margin-left: 20px;
+    display: none;
+}
+.v2{
+    margin-left: 20px;
+    display: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="head"><img src="./homepage/1.gif"></div>
+    <div class="box">
+        <img src="./homepage/bj.jpg" class="i">
+        <div class="ver">
+            <form action="demo1.html" method="GET">
+                <div class="ver-1"><label for="">账户登录</label></div>
+                <div class="ver-2">
+                    <img src="./homepage/05_登录页_03.gif">
+                    <input type="text" placeholder="手机号/会员名/邮箱" id="i1">
+                </div>
+                <div class="v" id="v">请输入账户</div>
+                <div class="ver-3">
+                    <img src="./homepage/05_登录页_06.gif">
+                    <input type="text" id="i2">
+                </div>
+                <div class="v2" id="v2">请输入密码</div>
+                <div class="ver-4"><span>忘记登录密码</span><span>免费注册</span></div>
+                <div class="ver-5"><input type="submit" value="登录"></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="mostBot">
+            <div class="bot-1">
+                   <div>
+                       <ul>
+                           <li class="li1">新手上路</li>
+                           <li>账户注册</li>
+                           <li>购物流程</li>
+                           <li>优惠券</li>
+                           <li>注册协议</li>
+                           <li>常见问题</li>
+                       </ul>
+                   </div>
+                   <div>
+                        <ul>
+                                <li class="li1">购物保障</li>
+                                <li>品质保证</li>
+                                <li>服务协议</li>
+                                <li>隐私声明</li>
+                                <li>售后服务</li>
+                               
+                            </ul>
+                   </div>
+                   <div>
+                        <ul>
+                                <li class="li1">支付方式</li>
+                                <li>在线支付</li>
+                                <li>线下支付</li>
+                               
+                               
+                            </ul>
+                   </div>
+                   <div>
+                        <ul>
+                                <li class="li1">物流配送</li>
+                                <li>第三方物流</li>
+                                <li>门店自提</li>
+                                <li>快递单号查询</li>
+                                <li>配送说明</li>
+                               
+                            </ul>
+                   </div>
+                   <div>
+                        <ul>
+                                <li class="li1">关于我们</li>
+                                <li>关于酒聚汇</li>
+                                <li>联系我们</li>
+                                <li>招商加盟</li>
+                                <li>线下门店</li>
+                                <li>商家登录</li>
+                            </ul>
+                   </div>
+            </div>
+            <div class="bot-2">
+                <div>关于我们 | 联系我们 | 加入我们 | 免责声明 | 网站地图 | 合作伙伴 | 友情链接</div>
+                <div>《中华人民共和国电信与信息服务业经营许可证》&nbsp;粤ICP12049918号-1&nbsp; | &nbsp;
+                    增值电信业务经营许可证 粤B2-20130248<br/><span>Copyright @ 2012 wine-world.com,All Rights
+                    Reserved.&nbsp; |&nbsp;本站酒类商品仅限18周岁以上人士购买</span>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            var y1 = document.getElementById('v');
+            var y2 = document.getElementById('v2');
+            var y3 = document.getElementById('i1');
+            var y4 = document.getElementById('i2');
+            var f = document.getElementsByTagName('form')[0];
+
+            f.addEventListener('submit',function(e){
+                e.preventDefault();
+                var user = y3.value.trim();
+                var pwd = y4.value.trim();
+                
+                if(user.length == 0){
+                    y1.style.display = "block";
+                    return false;
+                }else if(pwd.length == 0){
+                    y2.style.display = "block";
+                }else{
+                    y1.style.display = "none";
+                    y2.style.display = "none";
+                    f.submit();
+                }
+            })
+        </script>
+</body>
+</html>
